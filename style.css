@@ -1,0 +1,39 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    margin: auto;
+}
+.flowchart-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flowchart-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.flowchart-arrow {
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #ff6e54;
+    margin: 0 1.5rem;
+}
+@media (max-width: 768px) {
+    .chart-container {
+        height: 300px;
+    }
+    .flowchart {
+        flex-direction: column;
+    }
+    .flowchart-arrow {
+        transform: rotate(90deg);
+        margin: 1.5rem 0;
+    }
+}

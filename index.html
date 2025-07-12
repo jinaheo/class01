@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>사회문제해결 수업지도안 인포</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로젝트 기반 사회문제 해결 학습 인포그래픽</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-6xl font-black text-[#003f5c] mb-4">프로젝트 기반 사회문제 해결 학습</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">학생 스스로 문제를 발견하고 해결책을 설계하며 미래 시민으로 성장하는 3차시 집중 프로젝트</p>
+        </header>
+
+        <main>
+            <section id="philosophy" class="mb-12 md:mb-20">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#444e86] text-center mb-6">핵심 교육 철학: 파인만 학습법</h2>
+                    <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">복잡한 사회 문제를 가장 단순한 언어로 설명하는 과정을 통해 깊이 있는 이해와 지식의 내재화를 추구합니다. 학생들은 '가르치는 사람'의 입장에서 문제를 재구성하며 메타인지를 발달시킵니다.</p>
+                    <div class="flowchart flex flex-col md:flex-row justify-center items-center">
+                        <div class="flowchart-step bg-sky-100 text-sky-800 p-4 rounded-lg w-48 h-28 border-l-4 border-sky-500"><strong>1. 주제 선택</strong><br>탐구할 문제 정의</div>
+                        <div class="flowchart-arrow">→</div>
+                        <div class="flowchart-step bg-amber-100 text-amber-800 p-4 rounded-lg w-48 h-28 border-l-4 border-amber-500"><strong>2. 쉽게 설명하기</strong><br>핵심 개념 단순화</div>
+                        <div class="flowchart-arrow">→</div>
+                        <div class="flowchart-step bg-rose-100 text-rose-800 p-4 rounded-lg w-48 h-28 border-l-4 border-rose-500"><strong>3. 지식의 빈틈 확인</strong><br>설명이 막히는 부분</div>
+                        <div class="flowchart-arrow">→</div>
+                        <div class="flowchart-step bg-teal-100 text-teal-800 p-4 rounded-lg w-48 h-28 border-l-4 border-teal-500"><strong>4. 검토 및 정제</strong><br>다시 학습하고 설명</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="journey" class="mb-12 md:mb-20">
+                <h2 class="text-2xl md:text-3xl font-bold text-[#955196] text-center mb-10">3차시 학습 여정 (Session Journey)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-6xl mb-4">🔍</div>
+                        <h3 class="text-xl font-bold mb-2 text-[#003f5c]">1차시: 문제 발견 및 분석</h3>
+                        <p class="text-gray-600">자신만의 시선으로 사회 문제를 정의하고, '왜?'라는 질문을 반복하며 근본적인 원인과 다각적 영향을 탐색합니다.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-6xl mb-4">💡</div>
+                        <h3 class="text-xl font-bold mb-2 text-[#dd5182]">2차시: 해결 방안 모색</h3>
+                        <p class="text-gray-600">브레인스토밍을 통해 창의적 아이디어를 도출하고, 가장 실현 가능한 해결책을 구체적인 실행 계획으로 발전시킵니다.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-6xl mb-4">🎤</div>
+                        <h3 class="text-xl font-bold mb-2 text-[#ffa600]">3차시: 발표 및 성찰</h3>
+                        <p class="text-gray-600">프로젝트 결과물을 공유하고 동료들과 건설적인 피드백을 교환하며, 자기 평가를 통해 학습 과정을 성찰합니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="evaluation" class="mb-12 md:mb-20">
+                 <h2 class="text-2xl md:text-3xl font-bold text-[#444e86] text-center mb-10">핵심 역량 및 평가 기준</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-center mb-4 text-gray-700">프로젝트 수행 평가 요소 (100점)</h3>
+                        <p class="text-center text-gray-600 mb-6 max-w-md mx-auto">본 프로젝트는 결과물뿐만 아니라, 문제 해결 과정 전반에 걸친 학생의 성장과 참여를 종합적으로 평가합니다.</p>
+                        <div class="chart-container">
+                            <canvas id="evaluationDonutChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-bold text-center mb-4 text-gray-700">성장 핵심 역량 프로파일</h3>
+                        <p class="text-center text-gray-600 mb-6 max-w-md mx-auto">학생들은 프로젝트를 통해 비판적 사고, 창의력, 기획력 등 미래 사회에 필수적인 핵심 역량을 균형 있게 함양합니다.</p>
+                        <div class="chart-container">
+                            <canvas id="competencyRadarChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-12 md:mt-16 pt-8 border-t border-gray-300">
+            <p class="text-gray-600">학생 주도적 탐구, 교실의 변화를 이끌다.</p>
+            <p class="text-sm text-gray-500 mt-2">Data-driven Infographic for Project-Based Learning</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
